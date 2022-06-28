@@ -20,6 +20,10 @@ h2 {
     transform: skewX(-15deg);
 }
 
+h2.pa {
+    margin-right: 1050px;
+}
+
 
 
 h3 {
@@ -40,6 +44,31 @@ h5 {
     color: blueviolet;
     font-size: 10px;
 }
+
+h6 {
+    color: #243e63;
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+}
+
+.move {
+    text-align: center;
+    transform: skewX(-15deg);
+
+}
+
+span.prestat {
+    background-color: #6415ff;
+    font-weight: bold;
+    font-style: italic;
+    color: white;
+    transform: skewX(-15deg);
+    
+    
+
+}
+
 
 .btn {
     background-color:#6415ff ;
@@ -86,6 +115,16 @@ h5 {
 
 }
 
+.Img3 {
+    position: relative;
+    width: 400px;
+    height: 250px;
+    border-radius: 20px;
+    margin-left: 700px;
+    margin-top: -450px;
+
+}
+
 .para2 {
     text-align: justify;
     margin-left: 450px;
@@ -102,6 +141,22 @@ h5 {
     margin-left: 570px;
     margin-top: 142px;
     opacity: 0.4;
+}
+
+.blobone {
+    position: absolute;
+    margin-left: -40px;
+    margin-right: 720px;
+    margin-top: 135px;
+    opacity: 0.4;
+}
+
+.blob {
+    position: absolute;
+    margin-right: 50px;
+    margin-left: 695px;
+    margin-top: 10px;
+    opacity: 0.6;
 }
 
 .patt {
@@ -196,4 +251,99 @@ h5 {
     .img .Img2 {
         display: none;
     }
+}
+
+.shop {
+    text-align: center;
+    margin-right: 800px;
+    margin-bottom: -50px;
+    margin-top: 30px;
+}
+
+.chef {
+    text-align: center;
+    margin-top: -235px;
+    margin-bottom:-10px;
+}
+
+.traiteur {
+    text-align: center;
+    margin-top: -236px;
+    margin-left: 900px;
+    margin-bottom: 10px;
+}
+
+.chef.info {
+    text-decoration: none;
+}
+
+.buton {
+    text-decoration: none;
+}
+
+.text-center{
+    margin-top: -40px;
+    color: grey;
+}
+
+.text-end {
+    margin-top: -40px;
+}
+
+.patte {
+    position: absolute;
+    margin-left: 485px;
+    margin-top: 165px;
+    opacity: 0.4;
+}
+
+img.thaito:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1+.5);
+}
+
+img.rounded-circle:hover {
+    -ms-transform: scale(2); /* IE 9 */
+    -webkit-transform: scale(2); /* Safari 3-8 */
+    transform: scale(2);
+        
+}
+
+img.chefs:hover {
+    -ms-transform: scale(2); /* IE 9 */
+    -webkit-transform: scale(2); /* Safari 3-8 */
+    transform: scale(2);
+        
+}
+
+img.trait:hover {
+    -ms-transform: scale(2); /* IE 9 */
+    -webkit-transform: scale(2); /* Safari 3-8 */
+    transform: scale(2);
+        
+}
+
+img.facebook-icon:hover {
+    -ms-transform: scale(2); /* IE 9 */
+    -webkit-transform: scale(2); /* Safari 3-8 */
+    transform: scale(2);
+            
+    
+}
+
+img.twitter-icon:hover {
+    -ms-transform: scale(2); /* IE 9 */
+    -webkit-transform: scale(2); /* Safari 3-8 */
+    transform: scale(2);
+            
+    
+}
+
+img.youtube-icon:hover {
+    -ms-transform: scale(2); /* IE 9 */
+    -webkit-transform: scale(2); /* Safari 3-8 */
+    transform: scale(2);
+            
+    
 }
